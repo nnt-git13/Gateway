@@ -1,32 +1,15 @@
-# secrets
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-credentials.json
-
-# python
-__pycache__/
-*.pyc
-.venv/
-venv/
-
-# node
 node_modules/
 .next/
-dist/
-build/
+.next-dev/
+out/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.env*.local
 
-# data and models (keep big files out of git)
-*.gguf
-*.safetensors
-*.bin
-*.pt
-*.onnx
-data/raw/
+# Local Gateway observations, traces, and review records
+.gateway-data/
 
-# os and editors
-.DS_Store
-.vscode/
-.idea/
+.next-gateway-tests/
+.next-integrations-tests/
+.next-discover-tests/
